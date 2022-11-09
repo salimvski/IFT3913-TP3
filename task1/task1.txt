@@ -1,3 +1,5 @@
+source : http://www.alcula.com/calculators/statistics/box-plot/
+
 information pertinentes a calculer sont: 
 - l = quartile inferieur
 - m = median
