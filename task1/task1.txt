@@ -33,4 +33,26 @@ s = u + 1.5 * d = 9 + 1.5 * 6 = 18
 i = l - 1.5 * s = 3 - 1.5 * 18 = -24
 
 
-- 
+Conclusions:
+
+- Metrique DCP:
+Avec le test QQPLOT on constate que les points suivent grandement une ligne droite
+Avec le test Boite a moustache on constate que la partie inferieur de la boite represente
+presque le double de la longue de l'extremite superieur de la boite a moustache
+Avec la respresentation en histogramme de la distribution on constate la distribution est loin
+detre normal tel que nous ne remarquons pas une symetrie
+Ainsi, avec ces donnes on ne peut pas accepter l'hypothese que la distribution statistique pour cette metrique
+soit normale.
+
+- Metrique NCLOC:
+Avec le test boite a moustache, on constate la partie inferieur de la boite a moustache est presque nul,
+on est loin d'avoir une distribution normale
+Avec le test QQPLOT, on constate que les poins devient totalement de la ligne droite
+Avec la representation histogramme, nous sommes loin d'avoir une symetrie.
+Ainsi avec ces observations nous ne pouvons rejeter que l'hypothese que la distribution soit normal pour cette Metrique
+
+- Metrique NoCom:
+Avec le test boite a moustache, Il y a une inegale repartion, des longueurs de la boite.
+Avec le test QQPLOT, au debut les points semblent suivrent une ligne droite puis devient de la ligne
+Avec la representation histogramme, On constate que la distribution n'est pas symetrique
+On ne peut accepter l'hypothese que la distribution des donnes de cette metrique soit normal
