@@ -1,0 +1,2 @@
+(spearman) : http://www.wessa.net/rwasp_spearman.wasp#output
+(pearson) : http://www.wessa.net/rwasp_correlation.wasp#output
