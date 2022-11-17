@@ -1,0 +1,21 @@
+Comme dans la tache precedente on a conclu que les metriques sont vraissembablement
+pas normalement distribuees, nous allons utiliser la correlation robuste pour analyser 
+la relation entre nos metriques par le coefficient de Spearman.
+
+On observe que la correlation entre NoCom et NCLOC est d'environ egale a 0.688;
+Celle entre NoCom et DCP de -0.534 (voir images et sources pour plus de details).
+
+Comme l’intervalle des valeurs ainsi que leur interprétation sont les
+mêmes que pour r, le resultat est donc toujours compris entre –1 et 1.
+
+Cependant, rho =/=1, rho =/-1 et rho =/= 0 pour nos deux resultats obtenus.
+On ne peut donc pas dire que ces metriques ont une parfaite correlation (lineaire ou negative)
+ou qu'elles ne sont pas du tout corrélées.
+
+En ce qui concernce la regression lineaire entre NoCom et NCLOC, on trouve que a = 36.047
+et que b = -97.9925 -- Ce qui nous donne une droite d'equation Ŷ = -97.9925 + 36.047x.
+
+Entre NoCom et DCP, a = -1.83 et b = 75.8095 ==> Ŷ = 75.8095 - 1.83x.
+
+Lorsqu'on trace les deux droites, on retrouve la presence de quelques points extremes (voir NoCom_NCLOC_4.jpeg & NoCom_DCP_4.jpeg),
+ce qui pourrait influencer significativement l’estimation de a et b.
