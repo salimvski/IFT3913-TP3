@@ -1,0 +1,4 @@
+(spearman) : http://www.wessa.net/rwasp_spearman.wasp#output
+(pearson) : http://www.wessa.net/rwasp_correlation.wasp#output
+(regression lineaire) : https://stats.blue/Stats_Suite/correlation_regression_calculator.html &
+                        https://www.statskingdom.com/linear-regression-calculator.html
