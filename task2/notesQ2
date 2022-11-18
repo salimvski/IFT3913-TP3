@@ -1,3 +1,9 @@
+Tache 2 :
+Étudiez les corrélations entre NoCom et NCLOC, NoCom et DCP. Visualisez les données, calculez les droits de
+régression, et les coefficients de corrélation qui ont du sens. 
+
+-----------
+
 Comme dans la tache precedente on a conclu que les metriques sont vraissembablement
 pas normalement distribuees, nous allons utiliser la correlation robuste pour analyser 
 la relation entre nos metriques par le coefficient de Spearman.
