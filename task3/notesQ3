@@ -20,4 +20,24 @@ hypothèses
 -  choix d’étude : Expériences (voir chap6 p.17)
 
 Quasi-expérience : 
+- On selectionne differentes classes de nos projets ou d’autres trouves sur internet.
+- Parmi ces classes, il y en a qui auront eu plus de 10 modifications / commits,
+  et d’autres moins, nous allons soummet ces classes a une evaltion sur une echeille
+  a differentes personnes avec un niveau en programmation variaable, ca peut aller
+  d’une personne avec quelques jours d’experience a plusieurs mois voir annee.
+- Nous allons attribuer a chacun des classes que nous auront nous meme choisi, ils auront
+  la possibilite de noter ces classes sur une echeille de 1 a 5.
+- Nous ferrons ensuite une moyenne et des comparatifs pour arriver a une conclusion satisfaisante.
 
+Variable :
+- La classe
+- Nombre de modification 
+- Appreciation : Note attribuee par l’utilisateur a la qualite des commentaires
+- Complexite : Complexite de la classe selon l’utilisateur sur une echeille de 1 a 5
+
+Interprétation :
+- Est-ce que la taille de la classe impacte sur les resultats ?
+- Est-ce que bcp de commentaires == bonne qualite
+- L’utilisateur arrive a comprendre le code sans jamais l’avoir vu/utilise avant ?
+
+Discussion : (apres expérience)
