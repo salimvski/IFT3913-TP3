@@ -1,0 +1,43 @@
+Tache 3 : 
+Nous voulons évaluer l’hypothèse : « les classes qui ont été modifiées plus de 10 fois sont mieux commentées que
+celles qui ont été modifiées moins de 10 fois ». Décrivez la conception d’un quasi-expérience qui vous permettra de le
+faire. Ensuite, évaluez l’hypothèse, discutez les résultats et décrivez vos conclusions.
+
+-----------
+Rappel :
+
+Quasi-expériences
+• Impossible de tester physiquement (concrètement) les
+hypothèses
+• Impossible de former un « vrai » groupe de contrôle pour des
+  raisons pratiques et/ou éthiques
+• Pas d’équivalence entre groupe d’étude et groupe de contrôle
+• Affectation aux groupes contrôlée
+• Traitement non contrôlé
+
+------------
+
+-  choix d’étude : Expériences (voir chap6 p.17)
+
+Quasi-expérience : 
+- On selectionne differentes classes de nos projets ou d’autres trouves sur internet.
+- Parmi ces classes, il y en a qui auront eu plus de 10 modifications / commits,
+  et d’autres moins, nous allons soummet ces classes a une evaltion sur une echeille
+  a differentes personnes avec un niveau en programmation variaable, ca peut aller
+  d’une personne avec quelques jours d’experience a plusieurs mois voir annee.
+- Nous allons attribuer a chacun des classes que nous auront nous meme choisi, ils auront
+  la possibilite de noter ces classes sur une echeille de 1 a 5.
+- Nous ferrons ensuite une moyenne et des comparatifs pour arriver a une conclusion satisfaisante.
+
+Variable :
+- La classe
+- Nombre de modification 
+- Appreciation : Note attribuee par l’utilisateur a la qualite des commentaires
+- Complexite : Complexite de la classe selon l’utilisateur sur une echeille de 1 a 5
+
+Interprétation :
+- Est-ce que la taille de la classe impacte sur les resultats ?
+- Est-ce que bcp de commentaires == bonne qualite
+- L’utilisateur arrive a comprendre le code sans jamais l’avoir vu/utilise avant ?
+
+Discussion : (apres expérience)
