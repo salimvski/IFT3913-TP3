@@ -36,8 +36,21 @@ Variable :
 - Complexite : Complexite de la classe selon l’utilisateur sur une echeille de 1 a 5
 
 Interprétation :
-- Est-ce que la taille de la classe impacte sur les resultats ?
-- Est-ce que bcp de commentaires == bonne qualite
-- L’utilisateur arrive a comprendre le code sans jamais l’avoir vu/utilise avant ?
 
-Discussion : (apres expérience)
+- Est-ce que la taille de la classe impacte sur les resultats ?
+  - Apres avoir realise l'experience on constate que la taille d'une classe n'a pas forcement un impact sur les resultats,
+
+
+- Est-ce que bcp de commentaires == bonne qualite
+Non, les petites classes AGE.java et utils.java par exemple contiennent une ligne de commentaire par fonction
+ce qui est largement suffisant pour la comprehension
+
+
+- L’utilisateur arrive a comprendre le code sans jamais l’avoir vu/utilise avant ?
+Pour les petites classes, ayant un petit nombre de fonction l'utilisateur arrive a comprendre 
+le role des fonctions de la classe. Par ailleurs l'utilisateur comprend sans difficulte le fichier IFT1015tp2.py malgre sa taille consequente grace a la bonne documentation. Le fichier cryption est difficile de comprehension pour les utilisateurs en general car on ne sait pas exactement ce que fait le fichier malgre les commentaires. 
+
+Discussion : 
+Apres avoir realise notre quasi-experience on constate que le nombre de commits n'a pas forcement un impact sur la qualite/nombre de commentaire. Il est difficile tout de meme de juger ceci car les commentaires restent quelque chose de subjectif.
+Par ailleurs, On remarque que les fichiers avec le plus de commits ont une moyenne plus elevee que les fichiers avec moins de 10 commits, ce qui pourrait tout de meme nous laisser penser que plus des commits sont effectues sur un fichier plus 
+la qualite des commentaires pourrait augmenter. Enfin, cet avis reste mitige car la classe Age.java avec moins de 10 commits possede une moyenne plus elevee que la classe utils.java. Les commentaires dependent de plusieurs parametres, tel que la complexite du projet, taille du fichier etc..
